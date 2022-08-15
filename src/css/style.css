@@ -1,0 +1,37 @@
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background: linear-gradient(90deg, #3f2b96 0%, #a8c0ff 100%);
+}
+
+input {
+  box-shadow: 2px 2px #dfff3e;
+  border: none;
+}
+
+#result {
+  margin-top: 22px;
+  background-color: #dfff3e;
+  width: 130px;
+  color: #000000;
+}
+
+input {
+  margin-top: 5px;
+  width: 150px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: #dfff3e;
+}
+
+#frase-calculado-automatico {
+  font-style: italic;
+  font-size: 14px;
+}

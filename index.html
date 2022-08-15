@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Calcule seu IMC</title>
+    <link
+      rel="shortcut icon"
+      href="src/imagens/favicon.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <h1>Descubra seu IMC</h1>
+
+    <p id="frase-calculado-automatico">
+      Seu IMC será calculado automaticamente após inserir os valores abaixo.
+    </p>
+
+    <label for="input-weight">Peso (kg):</label><br />
+    <!-- &nbsp; serve para forçar um espaço. -->
+    <input id="input-weight" type="number" value="64" step="0.1" />
+
+    <br /><br /><label for="input-height">Altura (m):</label><br />
+    <input id="input-height" type="number" value="1.57" step="0.01" />
+
+    <!--<p><button id="btn-calculate-imc">Calcular IMC</button></p>-->
+
+    <p id="result">Seu IMC é: <strong id="imc-result"></strong></p>
+    <p id="result-imc-text">
+      Este valor considera que você está na faixa
+      <strong id="text-result-imc"></strong>
+    </p>
+
+    <script defer src="src/js/script.js"></script>
+  </body>
+</html>
